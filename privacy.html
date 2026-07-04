@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Privacy Policy · Money Glow Up</title>
+<style>
+  :root {
+    --cream: #FBF7EF;
+    --cream-2: #F4ECDD;
+    --ink: #1C1B1A;
+    --ink-soft: #55514B;
+    --mint: #17B890;
+    --mint-deep: #0E7C63;
+    --border: #E5DCC9;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--cream);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    font-size: 17px;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 32px 22px 80px; }
+  header.brand {
+    display: flex; align-items: center; gap: 12px;
+    padding: 8px 0 22px;
+  }
+  .logo {
+    width: 44px; height: 44px; border-radius: 13px;
+    background: linear-gradient(140deg, var(--mint), var(--mint-deep));
+    display: flex; align-items: center; justify-content: center;
+    font-size: 24px; box-shadow: 0 4px 14px rgba(23,184,144,0.28);
+  }
+  .brand-name { font-weight: 800; font-size: 18px; letter-spacing: -0.2px; }
+  .brand-sub { color: var(--ink-soft); font-size: 13px; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 10px 0 6px; letter-spacing: -0.5px; }
+  .updated { color: var(--ink-soft); font-size: 14px; margin: 0 0 26px; }
+  h2 {
+    font-size: 20px; margin: 34px 0 10px; letter-spacing: -0.2px;
+    padding-top: 6px;
+  }
+  h2 .num { color: var(--mint-deep); font-weight: 800; margin-right: 8px; }
+  p { margin: 0 0 14px; }
+  ul { margin: 0 0 14px; padding-left: 22px; }
+  li { margin: 0 0 8px; }
+  a { color: var(--mint-deep); }
+  strong { font-weight: 700; }
+  .callout {
+    background: var(--cream-2);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--mint);
+    border-radius: 12px;
+    padding: 16px 18px;
+    margin: 0 0 22px;
+    font-size: 15.5px;
+  }
+  .card {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 18px 20px;
+    margin: 22px 0;
+  }
+  hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
+  footer { color: var(--ink-soft); font-size: 14px; }
+  footer a { text-decoration: none; }
+  .toplink { display:inline-block; margin-top: 10px; font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="brand">
+    <div class="logo">🌱</div>
+    <div>
+      <div class="brand-name">Money Glow Up</div>
+      <div class="brand-sub">by Thuemmler AI GmbH</div>
+    </div>
+  </header>
+
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: 4 July 2026</p>
+
+  <div class="callout">
+    <strong>The short version:</strong> Money Glow Up has no login. We identify your app
+    installation with a random device ID — never your name, email, or phone number. Everything
+    you type about your own money (savings goals and amounts) stays on your device. You can
+    delete your account and all associated server data at any time from inside the app.
+  </div>
+
+  <p>
+    This Privacy Policy explains what information the <strong>Money Glow Up</strong> mobile app
+    (“the App”, “we”, “us”) collects, why, and what rights you have. We are committed to data
+    minimisation: we collect as little as possible to run a fun, gamified financial-education
+    app.
+  </p>
+
+  <h2><span class="num">1.</span>Who we are (Data Controller)</h2>
+  <p>
+    <strong>Thuemmler AI GmbH</strong><br />
+    Contact: <a href="mailto:maximilian.thuemmler@gmail.com">maximilian.thuemmler@gmail.com</a>
+  </p>
+  <p>
+    For any privacy question, data-access request, or complaint, email us at the address above.
+  </p>
+
+  <h2><span class="num">2.</span>No account, no personal login</h2>
+  <p>
+    The App does <strong>not</strong> use email addresses, passwords, phone numbers, or
+    social-media sign-in. When you first open the App, a random anonymous identifier
+    (a “device ID”, a UUID) is generated and stored on your device. This device ID is what links
+    your progress to you. It is not derived from any hardware identifier and cannot be used to
+    identify you personally on its own.
+  </p>
+
+  <h2><span class="num">3.</span>Information stored only on your device</h2>
+  <p>The following never leaves your phone — it is stored locally and is not uploaded to us:</p>
+  <ul>
+    <li><strong>Your savings data:</strong> the goals you name, the target amounts, and the
+      amounts you log as “saved”. These are numbers <em>you type in yourself</em> — the App has
+      no bank connection and never accesses any financial account.</li>
+    <li><strong>No-spend streaks</strong> and other savings-tracker state.</li>
+    <li><strong>App settings:</strong> theme, sound/haptics preferences, reminder toggle, and
+      optional self-reported details you may enter during onboarding (such as an age range,
+      a first name for display, and a “motivation”).</li>
+    <li><strong>Local game state</strong> (a mirror of your XP, gems, energy, and streaks).</li>
+  </ul>
+
+  <h2><span class="num">4.</span>Information stored on our backend (Supabase)</h2>
+  <p>
+    To power leaderboards, streaks that survive a reinstall, and following friends, a small set
+    of data is stored on our backend provider, <strong>Supabase</strong>, on servers located in
+    the European Union. Linked only to your anonymous device ID, this includes:
+  </p>
+  <ul>
+    <li><strong>Profile:</strong> a username and optional display name you choose, and your
+      selected character/avatar.</li>
+    <li><strong>Learning progress:</strong> XP earned per lesson, completed lessons, and
+      perfect-lesson counts.</li>
+    <li><strong>Streaks:</strong> your current and longest daily streak.</li>
+    <li><strong>Social graph:</strong> who you follow and who follows you, to build the friends
+      list and weekly league / leaderboard.</li>
+  </ul>
+  <p>
+    Because leaderboards and friend search are social features, your chosen username, display
+    name, avatar, XP and streak may be visible to other users of the App. We do <strong>not</strong>
+    store your name, email, age, or any savings amount on the backend.
+  </p>
+
+  <h2><span class="num">5.</span>Analytics (PostHog)</h2>
+  <p>
+    We use <strong>PostHog</strong>, hosted in the European Union (eu.i.posthog.com), to
+    understand how the App is used so we can improve it. Analytics events are tied to your
+    anonymous device ID and record product actions such as opening the app, starting or
+    completing a lesson, viewing the paywall, starting or completing a purchase, creating or
+    reaching a savings goal, opening a mystery box, and sharing.
+  </p>
+  <p>
+    We do <strong>not</strong> use advertising trackers, the iOS Advertising Identifier (IDFA),
+    or App Tracking Transparency tracking. We do not sell your data, and analytics events do not
+    contain your name, email, or any savings amount. If analytics is not configured, no events
+    are sent at all.
+  </p>
+
+  <h2><span class="num">6.</span>Purchases (RevenueCat &amp; Apple)</h2>
+  <p>
+    Subscriptions and one-time purchases are processed by <strong>Apple</strong> through the App
+    Store. We use <strong>RevenueCat</strong> to manage and verify your purchase and subscription
+    status. RevenueCat receives your anonymous device ID together with the purchase/receipt
+    information needed to confirm your entitlement. Your payment details (card numbers, etc.) are
+    handled entirely by Apple and are <strong>never</strong> seen by the App or by us.
+  </p>
+
+  <h2><span class="num">7.</span>Notifications</h2>
+  <p>
+    With your permission, the App schedules a <strong>local</strong> daily streak reminder on
+    your device. These reminders are generated on-device only — we do not operate a push-server
+    and do not collect a push token. You can turn reminders off in the App's settings or in your
+    device settings at any time.
+  </p>
+
+  <h2><span class="num">8.</span>Legal bases (GDPR)</h2>
+  <ul>
+    <li><strong>Performance of the service</strong> (Art. 6(1)(b) GDPR): storing your progress,
+      streaks, profile, and social graph so the App works as intended, and processing purchases.</li>
+    <li><strong>Legitimate interests</strong> (Art. 6(1)(f) GDPR): privacy-friendly, anonymous
+      product analytics to keep the App reliable and improve it.</li>
+    <li><strong>Consent</strong> (Art. 6(1)(a) GDPR): device notifications, which you can grant or
+      revoke at any time.</li>
+  </ul>
+
+  <h2><span class="num">9.</span>Data retention</h2>
+  <p>
+    Backend data linked to your device ID is kept while your installation remains active. Local
+    data remains until you delete it, clear the app data, or uninstall the App. When you delete
+    your account (see below), the corresponding server data is erased.
+  </p>
+
+  <h2><span class="num">10.</span>Deleting your account and data</h2>
+  <div class="card">
+    <p style="margin-bottom:8px"><strong>In the App: Profile → “Delete account”.</strong></p>
+    <p style="margin-bottom:0">
+      This permanently deletes your server-side data — your profile, XP history, lesson progress,
+      streaks, and follow relationships — and wipes all local data from your device. A fresh
+      anonymous device ID is generated the next time you open the App, so you start over as a new,
+      unlinked installation.
+    </p>
+  </div>
+  <p>
+    Note: purchase records held by Apple and RevenueCat for billing and legal purposes are not
+    removed by this action, and are governed by their respective policies. If the server cannot be
+    reached at the moment of deletion, your local data is still wiped; you can retry the deletion
+    later or contact us to complete it.
+  </p>
+
+  <h2><span class="num">11.</span>Your rights</h2>
+  <p>Under the GDPR you have the right to:</p>
+  <ul>
+    <li>Access the data we hold about your device ID;</li>
+    <li>Have it corrected or erased (erasure is available directly in-app, as above);</li>
+    <li>Restrict or object to certain processing;</li>
+    <li>Data portability;</li>
+    <li>Lodge a complaint with your local data-protection authority.</li>
+  </ul>
+  <p>
+    To exercise any of these, email
+    <a href="mailto:maximilian.thuemmler@gmail.com">maximilian.thuemmler@gmail.com</a>. Because our
+    identifiers are anonymous, please contact us from a device where the App is installed so we can
+    match your request to the correct device ID.
+  </p>
+
+  <h2><span class="num">12.</span>Children</h2>
+  <p>
+    Money Glow Up is a general-audience educational app and is not directed at children under 13.
+    We do not knowingly collect personal information from children. Because there is no sign-up and
+    we do not collect names or contact details, the App is designed to be usable without providing
+    personal data.
+  </p>
+
+  <h2><span class="num">13.</span>International processing</h2>
+  <p>
+    Our backend (Supabase) and analytics (PostHog) are operated in the European Union. Apple and
+    RevenueCat may process purchase data in accordance with their own privacy policies and
+    applicable safeguards.
+  </p>
+
+  <h2><span class="num">14.</span>Changes to this policy</h2>
+  <p>
+    We may update this Privacy Policy from time to time. Material changes will be reflected by an
+    updated “Last updated” date at the top of this page.
+  </p>
+
+  <hr />
+  <footer>
+    <p>© 2026 Thuemmler AI GmbH · Money Glow Up</p>
+    <p>Questions? <a href="mailto:maximilian.thuemmler@gmail.com">maximilian.thuemmler@gmail.com</a></p>
+    <a class="toplink" href="./index.html">← Back to overview</a>
+  </footer>
+</div>
+</body>
+</html>
